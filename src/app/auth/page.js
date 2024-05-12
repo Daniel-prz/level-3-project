@@ -1,10 +1,11 @@
-import Signup from "./Signup";
-import Signin from "./Signin";
+import Signup from "./SignUp";
+import Signin from "./SignIn";
 
 export default function page() {
   return (
     <main>
       <Signin />
+      <Signup />
     </main>
   );
 }
