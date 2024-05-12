@@ -10,7 +10,7 @@ import Modal from "../components/Modal";
 import Sponsors from "../components/Sponsors";
 import Footer from "../components/Footer";
 
-export default function page() {
+export default function Dashboard() {
   const [show, setshow] = useState(true);
   const [user, setuser] = useState(null);
   function onShow(bool) {
